@@ -78,7 +78,7 @@ public class TTTGame {
 
         }
 
-//        if(game.getGameStatus() == GameStatus.DRAW){
+//        if(game.getGameStatus() == GameStatus.DRAW){ // before controller class code lines
         if(gameController.getGameStatus(game) == GameStatus.DRAW){
             System.out.println("Game has  drawn");
         }else{
